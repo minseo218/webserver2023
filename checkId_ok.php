@@ -1,6 +1,6 @@
 <!-- checkId_ok.php -->
 <?php
-    include './sql_conn.php';
+    include ('./sql_conn.php');
 
     $userid = $_GET['userid'];
     $sql = "select useridx from tb_user where userid='$userid'";

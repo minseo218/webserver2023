@@ -6,7 +6,7 @@
     <div id="regist_wrap" class="wrap">
         <div>
             <h1>Regist Form</h1>
-            <form action="regist_ok.php" method="post" name="regiform" id="regist_form" class="form" onsubmit="return sendit()">
+            <form action="sign_up_ok.php" method="post" name="regiform" id="regist_form" class="form" onsubmit="return sendit()">
                 <p><input type="text" name="userid" id="userid" placeholder="ID"><input type="button" id="checkIdBtn" value="check" onclick="checkId()"></p>
                 <p id="result">&nbsp;</p>
                 <p><input type="password" name="userpw" id="userpw" placeholder="Password"></p>

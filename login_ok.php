@@ -29,14 +29,14 @@
         if (!$num1) {
           echo "
           <script>
-            window.alert('아이디/비밀번호가 틀렸습니다 다시 입력하세요')
+            window.alert('존재하지 않는 아이디입니다.')
             history.go(-1)
             </script>";
         }
         elseif (!$num2) {
           echo "
           <script>
-            window.alert('아이디/비밀번호가 틀렸습니다 다시 입력하세요')
+            window.alert('비밀번호가 틀렸습니다.')
             history.go(-1)
             </script>";
         }
@@ -46,9 +46,11 @@
           $_SESSION['userid'] = $id;
           echo "
           <script>
+            window.alert('꺄악 로그인 되었어요!')
             location.href='main.php'
           </script>";
         }
       }
+      mysqli_close($conn);
 ?>
 
