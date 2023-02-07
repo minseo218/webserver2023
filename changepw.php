@@ -1,5 +1,5 @@
 <head>
-	<link rel="stylesheet" href="./lib/css/style.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 <div id="change_wrap" class="wrap">
         <div>
